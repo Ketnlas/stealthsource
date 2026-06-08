@@ -13,8 +13,8 @@ from .downloader import save_resources
 from .utils import parse_url
 
 app = typer.Typer(
-    name="pagesource",
-    help="Capture all resources from a webpage like browser DevTools Sources tab.",
+    name="stealthsource",
+    help="Capture all resources from a webpage with stealth and Turnstile solving.",
     add_completion=False,
 )
 console = Console()
